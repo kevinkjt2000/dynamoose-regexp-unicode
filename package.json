@@ -1,0 +1,36 @@
+{
+	"name": "dynamoose-regexp-unicode",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kevinkjt2000/dynamoose-regexp-unicode.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kevinkjt2000/dynamoose-regexp-unicode/issues"
+	},
+	"homepage": "https://github.com/kevinkjt2000/dynamoose-regexp-unicode#readme",
+	"dependencies": {
+		"@babel/core": "^7.10.5",
+		"@babel/node": "^7.10.5",
+		"@babel/plugin-transform-runtime": "^7.10.5",
+		"@babel/preset-env": "^7.10.4",
+		"@babel/runtime": "^7.10.5",
+		"dynamoose": "^2.2.1"
+	},
+	"babel": {
+		"plugins": [
+			"@babel/plugin-transform-runtime"
+		],
+		"presets": [
+			"@babel/preset-env"
+		]
+	}
+}
