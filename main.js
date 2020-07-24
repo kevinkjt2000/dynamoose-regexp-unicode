@@ -1,10 +1,10 @@
 import dynamoose from "dynamoose";
-// docker run --rm -p 127.0.0.1:8000:8000 --name dynamodb amazon/dynamodb-local
 dynamoose.aws.ddb.local("http://localhost:8000");
 
 const Thing = dynamoose.model("MyThingTable", {
 	id: {
 		type: String,
+		hashKey: true,
 		required: true,
 		validate: /(user|team):.+/gu
 	}
