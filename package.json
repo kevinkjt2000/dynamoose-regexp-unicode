@@ -23,7 +23,7 @@
 		"@babel/plugin-transform-runtime": "^7.10.5",
 		"@babel/preset-env": "^7.10.4",
 		"@babel/runtime": "^7.10.5",
-		"dynamoose": "^2.2.1"
+		"dynamoose": "^2.7.0"
 	},
 	"babel": {
 		"plugins": [
